@@ -6,7 +6,9 @@ import animationData from "./lottie/sharepass-animation.json";
 const App = () => {
 	return (
 		<>
-			<Lottie loop animationData={animationData} play style={{width: 600, height: 600}} />
+			<div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+				<Lottie loop animationData={animationData} play style={{width: 600, height: 600}} />
+			</div>
 		</>
 	);
 };
